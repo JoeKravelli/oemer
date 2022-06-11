@@ -2,7 +2,7 @@ version: "3"
 services:
   app:
     tty: true
-    image: oemer:latest
+    image: johannesk13/ai-repo:oemer
     container_name: oemer
     restart: always
     volumes:
