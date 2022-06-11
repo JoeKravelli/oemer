@@ -1,4 +1,4 @@
-# Oemer (End-to-end OMR)
+# Oemerondo (End-to-end OMR on Docker)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BreezeWhite/oemer/blob/main/colab.ipynb)
 [![PyPI version](https://badge.fury.io/py/oemer.svg)](https://badge.fury.io/py/oemer)
