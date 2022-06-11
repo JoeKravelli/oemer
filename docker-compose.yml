@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    tty: true
+    image: oemer:latest
+    container_name: oemer
+    restart: always
+    volumes:
+       - ./input:/input
+       - ./output:/output
+       - ./processed:/processed
+    entrypoint: sh -c "/watch-incoming.sh"
